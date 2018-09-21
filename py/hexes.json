@@ -1,0 +1,672 @@
+[
+    {
+        "id": 0,
+        "coordinates": [
+            0,
+            0
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 1,
+        "coordinates": [
+            1,
+            0
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "albion"
+    },
+    {
+        "id": 2,
+        "coordinates": [
+            2,
+            0
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 3,
+        "coordinates": [
+            3,
+            0
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 4,
+        "coordinates": [
+            4,
+            0
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "nordic"
+    },
+    {
+        "id": 5,
+        "coordinates": [
+            5,
+            0
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 6,
+        "coordinates": [
+            6,
+            0
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 7,
+        "coordinates": [
+            0,
+            1
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 8,
+        "coordinates": [
+            1,
+            1
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 9,
+        "coordinates": [
+            2,
+            1
+        ],
+        "type": "food",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 10,
+        "coordinates": [
+            3,
+            1
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 11,
+        "coordinates": [
+            4,
+            1
+        ],
+        "type": "wood",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 12,
+        "coordinates": [
+            5,
+            1
+        ],
+        "type": "oil",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 13,
+        "coordinates": [
+            6,
+            1
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 14,
+        "coordinates": [
+            7,
+            1
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 15,
+        "coordinates": [
+            0,
+            2
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 16,
+        "coordinates": [
+            1,
+            2
+        ],
+        "type": "oil",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 17,
+        "coordinates": [
+            2,
+            2
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 18,
+        "coordinates": [
+            3,
+            2
+        ],
+        "type": "oil",
+        "tunnel": true,
+        "faction": null
+    },
+    {
+        "id": 19,
+        "coordinates": [
+            4,
+            2
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 20,
+        "coordinates": [
+            5,
+            2
+        ],
+        "type": "food",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 21,
+        "coordinates": [
+            6,
+            2
+        ],
+        "type": "food",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 22,
+        "coordinates": [
+            0,
+            3
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "polania"
+    },
+    {
+        "id": 23,
+        "coordinates": [
+            1,
+            3
+        ],
+        "type": "wood",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 24,
+        "coordinates": [
+            2,
+            3
+        ],
+        "type": "metal",
+        "tunnel": true,
+        "faction": null
+    },
+    {
+        "id": 25,
+        "coordinates": [
+            3,
+            3
+        ],
+        "type": "wood",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 26,
+        "coordinates": [
+            4,
+            3
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 27,
+        "coordinates": [
+            5,
+            3
+        ],
+        "type": "wood",
+        "tunnel": true,
+        "faction": null
+    },
+    {
+        "id": 28,
+        "coordinates": [
+            6,
+            3
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 29,
+        "coordinates": [
+            7,
+            3
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "rusviet"
+    },
+    {
+        "id": 30,
+        "coordinates": [
+            0,
+            4
+        ],
+        "type": "food",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 31,
+        "coordinates": [
+            1,
+            4
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 32,
+        "coordinates": [
+            2,
+            4
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 33,
+        "coordinates": [
+            3,
+            4
+        ],
+        "type": "factory",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 34,
+        "coordinates": [
+            4,
+            4
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 35,
+        "coordinates": [
+            5,
+            4
+        ],
+        "type": "oil",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 36,
+        "coordinates": [
+            6,
+            4
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 37,
+        "coordinates": [
+            0,
+            5
+        ],
+        "type": "wood",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 38,
+        "coordinates": [
+            1,
+            5
+        ],
+        "type": "wood",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 39,
+        "coordinates": [
+            2,
+            5
+        ],
+        "type": "food",
+        "tunnel": true,
+        "faction": null
+    },
+    {
+        "id": 40,
+        "coordinates": [
+            3,
+            5
+        ],
+        "type": "oil",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 41,
+        "coordinates": [
+            4,
+            5
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 42,
+        "coordinates": [
+            5,
+            5
+        ],
+        "type": "village",
+        "tunnel": true,
+        "faction": null
+    },
+    {
+        "id": 43,
+        "coordinates": [
+            6,
+            5
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 44,
+        "coordinates": [
+            7,
+            5
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 45,
+        "coordinates": [
+            0,
+            6
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 46,
+        "coordinates": [
+            1,
+            6
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 47,
+        "coordinates": [
+            2,
+            6
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 48,
+        "coordinates": [
+            3,
+            6
+        ],
+        "type": "oil",
+        "tunnel": true,
+        "faction": null
+    },
+    {
+        "id": 49,
+        "coordinates": [
+            4,
+            6
+        ],
+        "type": "wood",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 50,
+        "coordinates": [
+            5,
+            6
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 51,
+        "coordinates": [
+            6,
+            6
+        ],
+        "type": "oil",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 52,
+        "coordinates": [
+            0,
+            7
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "saxony"
+    },
+    {
+        "id": 53,
+        "coordinates": [
+            1,
+            7
+        ],
+        "type": "oil",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 54,
+        "coordinates": [
+            2,
+            7
+        ],
+        "type": "lake",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 55,
+        "coordinates": [
+            3,
+            7
+        ],
+        "type": "food",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 56,
+        "coordinates": [
+            4,
+            7
+        ],
+        "type": "metal",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 57,
+        "coordinates": [
+            5,
+            7
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 58,
+        "coordinates": [
+            6,
+            7
+        ],
+        "type": "food",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 59,
+        "coordinates": [
+            7,
+            7
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "togawa"
+    },
+    {
+        "id": 60,
+        "coordinates": [
+            0,
+            8
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 61,
+        "coordinates": [
+            1,
+            8
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 62,
+        "coordinates": [
+            2,
+            8
+        ],
+        "type": "base",
+        "tunnel": false,
+        "faction": "crimea"
+    },
+    {
+        "id": 63,
+        "coordinates": [
+            3,
+            8
+        ],
+        "type": "village",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 64,
+        "coordinates": [
+            4,
+            8
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 65,
+        "coordinates": [
+            5,
+            8
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    },
+    {
+        "id": 66,
+        "coordinates": [
+            6,
+            8
+        ],
+        "type": "none",
+        "tunnel": false,
+        "faction": null
+    }
+]
