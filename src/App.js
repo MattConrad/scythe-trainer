@@ -2,8 +2,24 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { getHexMap } from './def/getHexMap';
+import { getFactions } from './def/getFactions';
+
+
 class App extends Component {
+
+  constructor() {
+    super();
+    this.test = '';
+  }
+
   render() {
+    const hexMap = getHexMap();
+    console.log(hexMap);
+    const factions = getFactions(hexMap);
+    console.log(factions);
+    this.test = factions;
+
     return (
       <div className="App">
         <header className="App-header">
