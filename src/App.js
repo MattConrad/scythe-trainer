@@ -4,6 +4,7 @@ import './App.css';
 
 import { getHexMap } from './def/getHexMap';
 import { getFactions } from './def/getFactions';
+import { getProduction } from './def/getProduction';
 
 
 class App extends Component {
@@ -18,7 +19,9 @@ class App extends Component {
     console.log(hexMap);
     const factions = getFactions(hexMap);
     console.log(factions);
-    this.test = factions;
+    const prod = getProduction();
+    console.log(prod);
+    this.test = prod;
 
     return (
       <div className="App">

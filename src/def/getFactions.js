@@ -1,18 +1,20 @@
 const factions = [
     {
         "name": "Albion",
-        "power:": 0,
+        "invaders": true,
+        "power:": 3,
         "combat cards": 0,
         "special": "You can plant a flag on the hex your avatar has just moved to.",
         "mechs": [
-            { "name": "underriver(?)", "desc": "cross rivers to/from tunnels" },
-            { "name": "sword(?)", "desc": "something something +/- 2" },
-            { "name": "shield(?)", "desc": "something else +/- 2" },
+            { "name": "burrow", "desc": "cross rivers to/from tunnels" },
+            { "name": "sword", "desc": "when attacking, opponent loses 2 power" },
+            { "name": "shield(?)", "desc": "when defending, you gain 2 power" },
             { "name": "rally", "desc": "move to workers or flags" }
         ]
     },
     {
         "name": "Nordic",
+        "invaders": false,
         "power:": 4,
         "combat cards": 1,
         "special": "Your workers may swim across rivers.",
@@ -25,6 +27,7 @@ const factions = [
     },
     {
         "name": "Polania",
+        "invaders": false,
         "power:": 2,
         "combat cards": 3,
         "special": "Pick up to two options per encounter card.",
@@ -37,6 +40,7 @@ const factions = [
     },
     {
         "name": "Rusviet",
+        "invaders": false,
         "power:": 3,
         "combat cards": 2,
         "special": "You may choose the same action on your production board on successive turns.",
@@ -49,6 +53,7 @@ const factions = [
     },
     {
         "name": "Saxony",
+        "invaders": false,
         "power:": 1,
         "combat cards": 4,
         "special": "There is no limit to the stars you can gain from combat or from objective cards.",
@@ -61,18 +66,20 @@ const factions = [
     },
     {
         "name": "Togawa",
+        "invaders": true,
         "power:": 0,
-        "combat cards": 0,
+        "combat cards": 2,
         "special": "You can lay a trap on the hex your avatar has just moved to.",
         "mechs": [
-            { "name": "riverthing(?)", "desc": "" },
-            { "name": "lakefight(?)", "desc": "Move on lakes and get some kind of combat bonus on lakes." },
-            { "name": "shinobi", "desc": "Move to traps you've set." },
-            { "name": "solitary(?)", "desc": "Get a combat bonus for combats where you have only one unit." }
+            { "name": "fork(?)", "desc": "Move across a river (max 1 unit per turn)" },
+            { "name": "sutton(?)", "desc": "Move on lakes, before combat on lakes play +1 combat cards." },
+            { "name": "ronin", "desc": "Before combat where you have exactly one unit, gain 2 power." },
+            { "name": "shinobi", "desc": "Move to any trap and something else." }
         ]
     },
     {
         "name": "Crimea",
+        "invaders": false,
         "power:": 5,
         "combat cards": 0,
         "special": "You may use a combat card as one resource of your choice once per turn.",
