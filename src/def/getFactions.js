@@ -1,6 +1,5 @@
-const factions = [
-    {
-        "name": "Albion",
+const factions = {
+    "Albion": {
         "invaders": true,
         "power:": 3,
         "combat cards": 0,
@@ -12,8 +11,7 @@ const factions = [
             { "name": "rally", "desc": "move to workers or flags" }
         ]
     },
-    {
-        "name": "Nordic",
+    "Nordic": {
         "invaders": false,
         "power:": 4,
         "combat cards": 1,
@@ -25,8 +23,7 @@ const factions = [
             { "name": "speed", "desc": "+1 speed" }
         ]
     },
-    {
-        "name": "Polania",
+    "Polania": {
         "invaders": false,
         "power:": 2,
         "combat cards": 3,
@@ -38,8 +35,7 @@ const factions = [
             { "name": "speed", "desc": "+1 speed" }
         ]
     },
-    {
-        "name": "Rusviet",
+    "Rusviet": {
         "invaders": false,
         "power:": 3,
         "combat cards": 2,
@@ -51,8 +47,7 @@ const factions = [
             { "name": "speed", "desc": "+1 speed" }
         ]
     },
-    {
-        "name": "Saxony",
+    "Saxony": {
         "invaders": false,
         "power:": 1,
         "combat cards": 4,
@@ -64,8 +59,7 @@ const factions = [
             { "name": "speed", "desc": "+1 speed" }
         ]
     },
-    {
-        "name": "Togawa",
+    "Togawa": {
         "invaders": true,
         "power:": 0,
         "combat cards": 2,
@@ -77,8 +71,7 @@ const factions = [
             { "name": "shinobi", "desc": "Move to any trap and something else." }
         ]
     },
-    {
-        "name": "Crimea",
+    "Crimea": {
         "invaders": false,
         "power:": 5,
         "combat cards": 0,
@@ -90,18 +83,17 @@ const factions = [
             { "name": "speed", "desc": "+1 speed" }
         ]
     }
-];
+};
 
 const getFactions = (hexes) => {
     const factions2 = JSON.parse(JSON.stringify(factions));
 
-    return factions2
-        .map(f => {
-            const startHexId = hexes.filter(h => h.faction === f.name)[0].startHexId;
-            f['startHexId'] = startHexId;
+    Object.keys(factions2).forEach(factionName => {
+        const startHexId = hexes.filter(h => h.faction === factionName)[0].startHexId;
+        factions2[factionName]['startHexId'] = startHexId;
+    });
 
-            return f;
-        });
+    return factions2;
 }
 
 export { getFactions };

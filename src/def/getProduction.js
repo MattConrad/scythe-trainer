@@ -177,7 +177,7 @@ const boards = {
 }
 
 // in most cases, the bottom actions are the same for each top action.
-// bottom coins are deviant for mechanical, innovative, and militant, and we need to override those.
+// bottom coins are deviant for mechanical, innovative, and militant, and we need to overwrite those.
 const getTopActions = (boardName) => {
     const baseTopActions = JSON.parse(JSON.stringify(topActions));
 
