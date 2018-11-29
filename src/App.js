@@ -4,8 +4,8 @@ import './App.css';
 
 import { getHexMap } from './def/getHexMap';
 import { getFactions } from './def/getFactions';
-import { getProduction } from './def/getProduction';
-import { FactionChooser } from './components/FactionChooser';
+import { getActionBoards } from './def/getActionBoards';
+import { ChooseGameStart } from './components/ChooseGameStart';
 
 
 class App extends Component {
@@ -20,8 +20,8 @@ class App extends Component {
     console.log(hexMap);
     const factions = getFactions(hexMap);
     console.log(factions);
-    const prod = getProduction();
-    console.log(prod);
+    const actionBoards = getActionBoards();
+    console.log(actionBoards);
     this.test = hexMap;
 
     return (
@@ -30,7 +30,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <FactionChooser factions={factions} hexMap={hexMap} />
+        <ChooseGameStart factions={factions} actionBoards={actionBoards} hexMap={hexMap} />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>

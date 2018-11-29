@@ -56,7 +56,8 @@ const topActions = {
 
 const boards = {
     "industrial": {
-        "rank": 1,
+        "invaders": false,
+        "rank": "1",
         "popularity": 2,
         "coins": 4,
         "upgrade-slots": "oil-2/oil-3",
@@ -73,7 +74,8 @@ const boards = {
         "enlist-top": "trade"
     },
     "engineering": {
-        "rank": 2,
+        "invaders": false,
+        "rank": "2",
         "popularity": 2,
         "coins": 5,
         "upgrade-slots": "oil-2/oil-3",
@@ -90,7 +92,8 @@ const boards = {
         "enlist-top": "move"
     },
     "militant": {
-        "rank": 2.1,
+        "invaders": true,
+        "rank": "2A",
         "popularity": 3,
         "coins": 4,
         "upgrade-slots": "oil-1/oil-2/oil-3",
@@ -107,7 +110,8 @@ const boards = {
         "enlist-top": "trade"
     },
     "patriotic": {
-        "rank": 3,
+        "invaders": false,
+        "rank": "3",
         "popularity": 2,
         "coins": 6,
         "upgrade-slots": "oil-2",
@@ -124,7 +128,8 @@ const boards = {
         "enlist-top": "produce"
     },
     "innovative": {
-        "rank": 3.1,
+        "invaders": true,
+        "rank": "3A",
         "popularity": 3,
         "coins": 5,
         "upgrade-slots": "oil-3",
@@ -141,7 +146,8 @@ const boards = {
         "enlist-top": "move"
     },
     "mechanical": {
-        "rank": 4,
+        "invaders": false,
+        "rank": "4",
         "popularity": 3,
         "coins": 6,
         "upgrade-slots": "oil-2/oil-3",
@@ -158,7 +164,8 @@ const boards = {
         "enlist-top": "produce"
     },
     "agricultural": {
-        "rank": 5,
+        "invaders": false,
+        "rank": "5",
         "popularity": 4,
         "coins": 7,
         "upgrade-slots": "oil-2",
@@ -213,7 +220,7 @@ const getTopActions = (boardName) => {
     throw new Error("Invalid board name.");
 }
 
-const getProduction = () => {
+const getActionBoards = () => {
     const boards2 = JSON.parse(JSON.stringify(boards));
 
     Object.keys(boards2).forEach((boardName) => {
@@ -224,5 +231,5 @@ const getProduction = () => {
 };
 
 
-export { getProduction };
+export { getActionBoards };
 
